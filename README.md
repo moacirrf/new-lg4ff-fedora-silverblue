@@ -3,7 +3,7 @@
 
 A simple way to build new-lg4ff module on Fedora Silverblue flavours (Fedora kinoite).
 
-This script will download automatically the last version of v4l2loopback from
+This script will download automatically the last version of new-lg4ff from
 [https://github.com/berarma/new-lg4ff](https://github.com/berarma/new-lg4ff).  
 
 ### Dependencies
