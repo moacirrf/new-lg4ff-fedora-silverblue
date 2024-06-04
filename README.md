@@ -20,7 +20,7 @@ This script will download automatically the last version of new-lg4ff from
         Built:        Mon Feb 19 06:50:31 2024
         OS/Arch:      linux/amd64
 
-## Express build and instalation
+## Express build and installation
 If you just want build and run, lets go!:
 
 1. Edit **Dockerfile** to configure your Fedora Version, default is **40**
@@ -163,6 +163,13 @@ Certainly there are many ways to do that, but a simple way is creating a service
 Execute the following command
     
         sh podman_build.sh --no-cache
+        
+### Can i use this in other distribution?
+Sure you can! just adapt the dockerfile to your distribution.
+
+https://github.com/moacirrf/new-lg4ff-fedora-silverblue/blob/main/Dockerfile
+
+You can ask CHATGPT to convert dockerfile content to work with Ubuntu.
 
 ### Next features
 - Automatically rebuild the module if module refuse to load.
