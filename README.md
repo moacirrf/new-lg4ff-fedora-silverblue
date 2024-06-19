@@ -29,7 +29,7 @@ If you just want build and run, lets go!:
    
 3. Build
         
-        sh podman_build.sh
+         sh podman_build.sh --no-cache
 
 4. Install the module as a systemd service
 
