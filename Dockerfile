@@ -1,4 +1,4 @@
-ARG FEDORA_VERSION=42
+ARG FEDORA_VERSION=43
 FROM fedora:$FEDORA_VERSION as lg4ff_git
 RUN dnf install git -y
 RUN git clone https://github.com/berarma/new-lg4ff.git
