@@ -2,6 +2,8 @@
 echo "Removing service..."
 systemctl disable hid-logitech-new
 rm /etc/systemd/system/hid-logitech-new.service
+rm /etc/systemd/system/hid-logitech-new-failure.service
+
 
 echo "Unloading module hid-logitech-new"
 rmmod `pwd`/build/new-lg4ff/hid-logitech-new.ko
