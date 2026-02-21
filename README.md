@@ -3,8 +3,14 @@
 
 A simple way to build new-lg4ff module on Fedora Silverblue flavours (Fedora kinoite).
 
-This script will download automatically the last version of new-lg4ff from
+This script will do:
+
+- Download automatically the last version of new-lg4ff from
 [https://github.com/berarma/new-lg4ff](https://github.com/berarma/new-lg4ff).  
+
+- Install as a systemd service.
+- Rebuild when systemd can't start.
+
 
 ### Dependencies
 1. **Podman**, check podman instalation with the command:
@@ -170,7 +176,3 @@ Sure you can! just adapt the dockerfile to your distribution.
 https://github.com/moacirrf/new-lg4ff-fedora-silverblue/blob/main/Dockerfile
 
 You can ask CHATGPT to convert dockerfile content to work with Ubuntu.
-
-### Next features
-- Automatically rebuild the module if module refuse to load.
-- Or a graphical notification when module refuse to load (hard to do).
